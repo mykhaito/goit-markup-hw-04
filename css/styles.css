@@ -96,7 +96,9 @@ section {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.menu-nav .nav-menu-items:first-child {
+  color: #404bbf;
+}
 .nav-menu-items:hover,
 .nav-menu-items:focus {
   color: #404bbf;
@@ -195,6 +197,7 @@ section {
   color: #fff;
   /**/
   cursor: pointer;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .service-section > .service-button:hover,
@@ -325,6 +328,7 @@ section {
   gap: 24px;
   margin: 8px 16px 0 16px;
   display: flex;
+  justify-content: center;
 }
 .card-paragraph-icon-list {
   width: 40px;
@@ -391,7 +395,7 @@ section {
 }
 .project-card:hover .overlay,
 .project-card:focus .overlay {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 .project-card:hover,
 .project-card:focus {
