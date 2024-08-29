@@ -463,6 +463,7 @@ section {
 .card-paragraph-icon-footer {
   scale: 0, 75;
   gap: 16px;
+  display: flex;
 }
 .card-paragraph-icon-list-footer {
   width: 40px;
