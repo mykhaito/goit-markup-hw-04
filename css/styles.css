@@ -1,19 +1,14 @@
-/* GLOBALBODY */
-
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: #fff;
 }
-
 a {
   text-decoration: none;
 }
-
 ul {
   list-style: none;
 }
-
 h1,
 h2,
 h3,
@@ -23,44 +18,35 @@ h6,
 p {
   margin: 0;
 }
-
-ul,
-ol {
+ol,
+ul {
   margin: 0;
   padding-left: 0;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
   align-items: center;
 }
-/*------------------------------------------------------------------------------------------------*/
-/*HEADER*/
-/*------------------------------------------------------------------------------------------------*/
 .top-line {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 1px 6px rgba(46, 47, 66, 0.08);
 }
-
 .top-line .container {
   display: flex;
 }
-/* LOGO */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -69,12 +55,9 @@ section {
   color: #4d5ae5;
   margin-right: 76px;
 }
-
 .logo-span {
   color: #2e2f42;
 }
-
-/* MENU */
 .top-line .logo-nav-head {
   display: flex;
   align-items: center;
@@ -83,7 +66,6 @@ section {
   display: flex;
   gap: 40px;
 }
-
 .nav-menu-items {
   text-decoration: none;
   font-weight: 500;
@@ -99,15 +81,14 @@ section {
 .menu-nav .nav-menu-items:first-child {
   color: #404bbf;
 }
-.nav-menu-items:hover,
-.nav-menu-items:focus {
+.nav-menu-items:focus,
+.nav-menu-items:hover {
   color: #404bbf;
 }
 .nav-menu-items.active {
   color: #404bbf;
   content: "";
 }
-
 .nav-menu-items::after {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   content: "";
@@ -119,23 +100,18 @@ section {
   background-color: #404bbf;
   border-radius: 2px;
 }
-
-/* ADDRESS */
 .address-list {
   display: flex;
   gap: 40px;
 }
-
 .menu-address {
   font-style: normal;
   margin-left: auto;
 }
-
 .menu-address ul {
   list-style: none;
   margin: 0;
 }
-
 .address-contacts {
   text-decoration: none;
   color: #434455;
@@ -146,18 +122,13 @@ section {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.address-contacts:hover,
-.address-contacts:focus {
+.address-contacts:focus,
+.address-contacts:hover {
   color: #404bbf;
 }
-/*------------------------------------------------------------------------------------------------*/
-/*MAIN*/
-/*------------------------------------------------------------------------------------------------*/
-
-/* SECTION 1 */
 .service-section {
   background-color: #2e2f42;
-  padding: 188px 0px;
+  padding: 188px 0;
   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img_11_hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,7 +137,6 @@ section {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: auto;
 }
-
 .service-text {
   font-weight: 700;
   font-size: 56px;
@@ -179,7 +149,6 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-
 .service-button {
   background-color: #4d5ae5;
   display: block;
@@ -189,23 +158,18 @@ section {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  /*текст кнокпи*/
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  /**/
   cursor: pointer;
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.service-section > .service-button:hover,
-.service-section > .service-button:focus {
+.service-section > .service-button:focus,
+.service-section > .service-button:hover {
   background-color: #404bbf;
 }
-
-/* SECTION 2 */
 .benefit-section {
   padding: 120px 0;
 }
@@ -221,7 +185,6 @@ section {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .benefit-tables {
   display: flex;
   gap: 24px;
@@ -236,12 +199,10 @@ section {
   justify-content: center;
   margin-bottom: 8px;
 }
-
 .icon {
   width: 100%;
   height: 100%;
 }
-
 .benefit-list-section {
   width: calc((100% - 72px) / 4);
 }
@@ -254,7 +215,6 @@ section {
   width: 64px;
   height: 64px;
 }
-
 .benefit-paragraph {
   font-weight: 400;
   font-size: 16px;
@@ -262,7 +222,6 @@ section {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .benefit-header {
   font-weight: 500;
   font-size: 20px;
@@ -271,9 +230,6 @@ section {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
-/* SECTION 3 */
-/* SECTION H2 HEADER  */
 .section-h-two-header {
   font-weight: 700;
   font-size: 36px;
@@ -284,17 +240,15 @@ section {
   margin-bottom: 72px;
   text-align: center;
 }
-/* -------------------------------------------------------------------------------------------------------- */
 .team-tables {
   display: flex;
   gap: 24px;
 }
-
 .team-card {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 .card-header {
   font-weight: 500;
@@ -305,7 +259,6 @@ section {
   text-align: center;
   margin-bottom: 8px;
 }
-
 .team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -321,8 +274,6 @@ section {
   color: #434455;
   text-align: center;
 }
-
-/*icon section-----------------------------------*/
 .card-paragraph-icon {
   scale: 0, 75;
   gap: 24px;
@@ -344,8 +295,8 @@ section {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.card-paragraph-icon-list-link:hover,
-.card-paragraph-icon-list-link:focus {
+.card-paragraph-icon-list-link:focus,
+.card-paragraph-icon-list-link:hover {
   background-color: #404bbf;
 }
 .card-paragraph-icon-list-link .icon {
@@ -353,18 +304,15 @@ section {
   height: 16px;
   fill: #f4f4fd;
 }
-/* SECTION 4 */
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-
 .portfolio-section {
   padding: 120px 0;
 }
-
 .project-card {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -393,13 +341,13 @@ section {
   position: relative;
   overflow: hidden;
 }
-.project-card:hover .overlay,
-.project-card:focus .overlay {
-  transform: translateY(0%);
+.project-card:focus .overlay,
+.project-card:hover .overlay {
+  transform: translateY(0);
 }
-.project-card:hover,
-.project-card:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+.project-card:focus,
+.project-card:hover {
+  box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 .overlay {
   background-color: #4d5ae5;
@@ -416,16 +364,12 @@ section {
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/*------------------------------------------------------------------------------------------------*/
-/*FOOTER*/
-/*------------------------------------------------------------------------------------------------*/
 .footer-class {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -435,7 +379,6 @@ section {
   display: inline-block;
   margin-bottom: 16px;
 }
-
 .footer-paragraph {
   font-weight: 400;
   font-size: 16px;
@@ -444,7 +387,6 @@ section {
   color: #f4f4fd;
   max-width: 264px;
 }
-
 .footer-logo-span {
   color: #f4f4fd;
 }
@@ -460,10 +402,9 @@ section {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #fff;
   margin-bottom: 16px;
 }
-
 .card-paragraph-icon-footer {
   display: flex;
   gap: 16px;
@@ -482,11 +423,10 @@ section {
   align-items: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.card-paragraph-icon-list-link-footer:hover,
-.card-paragraph-icon-list-link-footer:focus {
+.card-paragraph-icon-list-link-footer:focus,
+.card-paragraph-icon-list-link-footer:hover {
   background-color: #31d0aa;
 }
-
 .card-paragraph-icon-footer .icon {
   height: 24px;
   width: 24px;
